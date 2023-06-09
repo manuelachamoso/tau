@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  
+body {
+    background: #f1f1f1f1;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 4rem;
+}
+
+/* Navbar */ 
+.navMenu {
+    position: absolute;
+    right: 20px; 
+    top: 20px; 
+}
+  
+a {
+    text-decoration: none;
+    color: rgb(49, 46, 46);
+    margin-right: 20px; 
+}
+  
+.navMenu a:hover {
+    color: #fddb3a;
+    font-weight: bold;
+}
+
+.about-me {
+    text-align: center;
+}
+
+#img_aboutme {
+    margin: 1rem 0;
+}
+
+p {
+    text-align: justify;
+    padding: 2rem;
+}
+
+/* Hobby */
+.hobby-section {
+    text-align: center;
+}
+
+.hobby-section p {
+    text-align: center;
+}
+
+.hobby-container {
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Espacio entre los hobbies */
+    margin: 0 auto;
+    max-width: 800px; 
+}
+  
+.hobby {
+    width: calc(50% - 10px); /* Ajusta el ancho de cada hobby según el número de columnas deseadas */
+    margin-bottom: 20px; /* Espacio entre los hobbies */
+}
+  
+.hobby img {
+    width: 100%;
+    height: 250px;
+}
+
+
+.contact {
+    text-align: center;
+}
+
+.contact h3 {
+    margin: 1rem 0;
+}
+
+.contact a {
+    color: #fddb3a;
+}
+.contact a:hover {
+    color: rgb(49, 46, 46);
+    font-weight: bold;
+}
+
+.contact img {
+    width: 350px;
+    height: 350px;
+}
