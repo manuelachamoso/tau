@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.book {
+    text-align: center;
+}
+
+.book img {
+    width: 350px;
+}
+
+.download-button {
+    background-color: rgb(18, 18, 221);
+    color: white;
+    padding: 0.75rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.download-button:hover {
+    background-color: white;
+    border: 1px solid rgb(18, 18, 221);
+    color: rgb(18, 18, 221);
+}
